@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react';
 
-export default function Home() {
+function HelloPage() {
   return (
     <div className="container">
       <header>
         <h1>
-          This is Home Page from Lam Doan on Upwork!
+          This is Hello Page from Lam Doan on Upwork!
         </h1>
         <p>
           A software engineer is a person who applies the principles of software engineering to the design, 
@@ -19,3 +19,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default HelloPage;
